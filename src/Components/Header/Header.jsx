@@ -1,12 +1,12 @@
 
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
     <header className="w-full bg-gray-800 text-white">
       <div className="flex justify-between items-center p-4">
         <h1 className="text-xl m-0">Mi Empresa</h1>
-        {/* <nav>
+        <nav>
           <ul className="flex gap-5 list-none px-0 py-0">
             <li>
               <Link className="text-white hover:underline" to="/">
@@ -19,7 +19,7 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link className="text-white hover:underline" to="/comunidad">
+              <Link className="text-white hover:underline" to="/community">
                 Comunidad
               </Link>
             </li>
@@ -34,7 +34,7 @@ export default function Header() {
               </Link>
             </li>
           </ul>
-        </nav> */}
+        </nav>
 
         {/* Botones de Registro y Login en el Header */}
         <div className="flex gap-3">
